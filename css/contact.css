@@ -1,8 +1,10 @@
-
+body{
+    margin:0px;
+}
 .float-head{
     border-radius: 25px;
     background: white;
-    margin-top: 30px; 
+    margin-top: 10px; 
     width: 100%;
 }
 
@@ -16,19 +18,69 @@
     margin-right: 45px;
 }
 
-.about{
+.gallery{
     font-size: 20px;
     display: flex;
-    float: left;
+    float: right;
     align-items: center;
     justify-content: center;
     margin-top: 48.5px;
-    margin-left: 45px;
+    margin-right: 90px;
 }
 
 .logo{
     width: 115px;
     height: 115px;
     display: flex;
+    /* margin: auto; */
+}
+
+.back-container{
+    display: flex;
+    width: 100%;
     margin: auto;
+    height: 100vh;
+    margin-top: 0px;
+    margin-left:0px;
+    background-image: url(../images/rangefinder\ no\ pin.jpeg);
+    background-size: cover;
+    background-repeat: none;
+}
+.text-box{
+    display: flex;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 389px;
+    width:300px;
+    text-align: center;
+   
+}
+.line{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: inline-block;
+    width: 50px;
+    border-top: solid 1px green;
+    height: 1px;
+}
+.mission{
+    font-size:30px;
+    color:sandybrown;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.text{
+    text-align: left;
+    font-size: 15px;
+    color:grey;
+    position: absolute;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 60px;
+    width: 200px;
+
 }

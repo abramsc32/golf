@@ -43,12 +43,12 @@ document.addEventListener('click', function(e) {
           }
           
                   e.preventDefault();
-                  var targetID = (respond) ? respond.getAttribute('href') : this.getAttribute('href');
-              var targetAnchor = document.querySelector(targetID);
+                  let targetID = (respond) ? respond.getAttribute('href') : this.getAttribute('href');
+              let targetAnchor = document.querySelector(targetID);
                   if (!targetAnchor) return;
-                  var originalTop = distanceToTop(targetAnchor);
+                  let originalTop = distanceToTop(targetAnchor);
                   window.scrollBy({ top: originalTop, left: 0, behavior: 'smooth' });
-                  var checkIfDone = setInterval(function() {
+                  let checkIfDone = setInterval(function() {
                       var atBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight - 2;
                       if (distanceToTop(targetAnchor) === 0 || atBottom) {
                           targetAnchor.tabIndex = '-1';

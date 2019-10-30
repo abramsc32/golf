@@ -1,12 +1,18 @@
-body {
-    background-image: url(../Project1/images/golfDesktopBack.jpg);
+.top-image {
+    margin:0px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/golfDesktopBack.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+body{
+    margin:0px;
+}
  img{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     display: flex;
     align-content: flex-start;
 } 
@@ -20,7 +26,7 @@ body {
     font-size: 17px;
   }
 
-  .container {
+  .container-top {
       display: flex;
       justify-content: center;
       align-content: center;
@@ -40,7 +46,7 @@ body {
       color:white;
   }
 
-.explore{
+.scroll{
     display: flex;
     box-sizing: border-box;
     padding-top: 100px;
@@ -58,6 +64,211 @@ body {
     color: #f2f2f2;
 }
 
+/* Second half of page begins from this point on */
+
+.bottom-background{
+    background-image: url(../images/grassphonebackground.jpg);
+    margin:0px;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.backbox{
+    display: flex;
+    height:100vh;
+    width: 100%;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    background: rgba(128, 128, 128, 0.397);
+    margin-top: 180px; 
+    align-self:center;
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-content: flex-start;
+    }
+    .second-nav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px;
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+
+
+    .container {
+        display: flex;
+        width: 100%;
+        position: relative;
+        flex-flow: wrap row;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-around;
+        align-content: center;
+      }
+      
+      .image {
+        border: solid 2px black;
+        border-radius: 3px;
+        width: 420px;
+        height: 300px;
+        margin: 10px;
+      }
+      
+      .overlay1{
+        margin-top:43px;
+        margin-left:20px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 420px;
+        height: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(115, 153, 165);
+      }
+    
+       
+      .overlay2{
+        margin-top:43px;
+        margin-left:479px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 420px;
+        height: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(115, 153, 165);
+      }
+     
+      .overlay3{
+        margin-top:43px;
+        margin-left:938px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 420px;
+        height: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(115, 153, 165);
+      }
+     
+      .overlay4{
+        position: absolute;
+        margin-top:367px;
+        margin-left:20px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 420px;
+        height: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(115, 153, 165);
+      }
+     
+      .overlay5{
+        margin-top:367px;
+        margin-left:479px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 420px;
+        height: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(115, 153, 165);
+      }
+     
+      .overlay6{
+        margin-top:367px;
+        margin-left:938px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 420px;
+        height: 300px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(115, 153, 165);
+      }
+    
+      
+      .overlay1:hover {
+        opacity: .8;
+      }
+    
+    
+      .overlay2:hover {
+        opacity: .8;
+      }
+      
+    
+      .overlay3:hover {
+        opacity: .8;
+      }
+      
+    
+      .overlay4:hover {
+        opacity: .8;
+      }
+      
+    
+      .overlay5:hover {
+        opacity: .8;
+      }
+      
+    
+      .overlay6:hover {
+        opacity: .8;
+      }
+    
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 @media(max-width: 420px){
     body {
         background: url(../Project1/images/phonegolfbackground.jpg) no-repeat center center fixed;
@@ -87,4 +298,4 @@ body {
         color: white;
     }
 
-}
+      }*/
