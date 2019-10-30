@@ -1,0 +1,425 @@
+body {
+    background-image: url(../Project1/images/desktopgrass-background-1v-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.float-head{
+    border-radius: 25px;
+    background: white;
+    margin-top: 30px; 
+    width: 100%;
+}
+
+.contact{
+    font-size: 20px;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48.5px;
+    margin-right: 45px;
+}
+
+.about{
+    font-size: 20px;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48.5px;
+    margin-left: 45px;
+}
+
+.logo{
+    width: 115px;
+    height: 115px;
+    display: flex;
+    margin: auto;
+}
+
+.disapearring-text-title{
+    width: 100%;
+    margin-top: 100px;
+    padding-top:130px;
+    display: flex;
+    margin: auto;
+    color: white;
+    font-size:70px;
+    justify-content: center;
+}
+
+.backbox{
+display: flex;
+height:100vh;
+width: 100%;
+border-radius: 25px;
+border-style: solid;
+border-color: black;
+background: rgba(128, 128, 128, 0.397);
+margin-top: 180px; 
+align-self:center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-flow: wrap row;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  .image {
+    border: solid 2px black;
+    border-radius: 3px;
+    width: 420px;
+    height: 300px;
+    margin: 10px;
+  }
+  
+  .overlay1{
+    margin-top:43px;
+    margin-left:20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 420px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+
+   
+  .overlay2{
+    margin-top:43px;
+    margin-left:479px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 420px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay3{
+    margin-top:43px;
+    margin-left:938px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 420px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay4{
+    position: absolute;
+    margin-top:367px;
+    margin-left:20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 420px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay5{
+    margin-top:367px;
+    margin-left:479px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 420px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay6{
+    margin-top:367px;
+    margin-left:938px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 420px;
+    height: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+
+  
+  .overlay1:hover {
+    opacity: .8;
+  }
+
+
+  .overlay2:hover {
+    opacity: .8;
+  }
+  
+
+  .overlay3:hover {
+    opacity: .8;
+  }
+  
+
+  .overlay4:hover {
+    opacity: .8;
+  }
+  
+
+  .overlay5:hover {
+    opacity: .8;
+  }
+  
+
+  .overlay6:hover {
+    opacity: .8;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* img {
+    vertical-align: middle;
+  } */
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .slides-container {
+      align-content: center;
+      margin: auto;
+    position: relative;
+    width: 500px;
+    height: 400px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+@media(max-width: 420px){
+    html{
+        align-content: center;
+    }
+    body {
+        background-image: url(../Project1/images/grassphonebackground.png);
+        background-size: cover;
+        background-repeat: repeat;
+    
+    }
+.float-head{
+    position: fixed; 
+    top:0;
+    height:115px;
+    border-radius: 25px;
+    background: white;
+    margin-top:0px; 
+}
+ 
+.title{
+    background-image: url('https://media.giphy.com/media/Y4Vc9JscK3OoUMWRQx/giphy.gif');
+    height: 175px;
+    background-size: cover;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+    margin-top: 130px;
+    }
+
+
+ header img{
+    width: 115px;
+    height: 115px;
+    display: flex;
+    margin: auto;
+} 
+
+    .backbox{
+        display: flex;
+        height:100%;
+        width: 100%;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: black;
+        background: rgba(128, 128, 128, 0.397);
+        margin-top: 0px; 
+        
+        }
+        .box img{
+            width:100%;
+            border-radius: 5px;
+            margin-top:10px;
+            align-content: center;
+            margin-left: 0px;
+            border-bottom: solid black;
+            margin-top:0px;
+            margin-bottom:0px;
+        }
+        .box.text-adare{
+            text-align: center;
+            display: flex;
+            width: 100%;
+            height: 200px;
+            background-color: white;
+            border-color: black;
+            border:20px;
+            margin-top: 0px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        
+        }
+        
+        .box.text-andrews{
+            display: flex;
+            width: 100%;
+            height: 200px;
+            background-color: white;
+            border-color: black;
+            border:20px;
+            margin-top: 0px;
+            margin-right: 3px;
+            border-radius: 5px;
+
+        
+        }
+        .box.text-shinecock{
+            display: flex;
+            width: 100%;
+            height: 200px;
+            background-color: white;
+            border-color: black;
+            border:20px;
+            margin-top: 0px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+
+        
+        }
+        .box.text-bethpage{
+            display: flex;
+            width: 100%;
+            height: 200px;
+            background-color: white;
+            border-color: black;
+            border:20px;
+            margin-top: 0px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+
+        
+        }
+}
