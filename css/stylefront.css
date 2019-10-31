@@ -51,47 +51,6 @@ body{
   .button-about:hover a{
     color:#fff;
   }
-  
-.button-gallery{
-    margin-right: 50px;
-    margin-top: 50px;
-    float: right;
-    width:140px;
-    height:50px;
-    border:2px solid #ffffff77;
-    text-align:center;
-    cursor:pointer;
-    position:relative;
-    box-sizing:border-box;
-    overflow:hidden;
-  }
-  .button-gallery a{
-      top: 13.5px;
-    font-size:16px;
-    color:#ffffff;
-    text-decoration:none;
-    transition:all .5s ease;
-    z-index:2;
-    position:relative;
-  }
-  .eff-gallery{
-    width:140px;
-    height:50px;
-    border:0px solid #11661f77;
-    position:absolute;
-    transition:all .5s ease;
-    z-index:1;
-    box-sizing:border-box;
-  }
-  .button-gallery:hover .eff-gallery{
-    border:70px solid #11661f77;
-  }
-  .button-gallery:hover a{
-    color:#fff;
-  }
-  
-
-
 
  img{
     width: 150px;
@@ -149,6 +108,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* All about the button */
 
 .button-about2{
     margin-right: 50px;
@@ -185,44 +145,6 @@ body{
     border:70px solid #ffffff;
   }
   .button-about2:hover a{
-    color:#11661f;
-  }
-  
-.button-gallery2{
-    margin-right: 50px;
-    margin-top: 50px;
-    float: right;
-    width:140px;
-    height:50px;
-    border:2px solid #ffffff;
-    text-align:center;
-    cursor:pointer;
-    position:relative;
-    box-sizing:border-box;
-    overflow:hidden;
-  }
-  .button-gallery2 a{
-      top: 13.5px;
-    font-size:18px;
-    color:#ffffff;
-    text-decoration:none;
-    transition:all .5s ease;
-    z-index:2;
-    position:relative;
-  }
-  .eff-gallery2{
-    width:140px;
-    height:50px;
-    border:0px solid #11661f;
-    position:absolute;
-    transition:all .5s ease;
-    z-index:1;
-    box-sizing:border-box;
-  }
-  .button-gallery2:hover .eff-gallery2{
-    border:70px solid #ffffff;
-  }
-  .button-gallery2:hover a{
     color:#11661f;
   }
   

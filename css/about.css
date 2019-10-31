@@ -1,5 +1,6 @@
-html { 
+html body{ 
     background: url(../images/rangefinder\ no\ pin.jpeg) no-repeat center center fixed; 
+    transition: all .5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
