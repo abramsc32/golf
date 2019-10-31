@@ -1,34 +1,103 @@
-
-.float-head{
-    border-radius: 25px;
-    background: white;
-    margin-top: 30px; 
+html { 
+    background: url(../images/rangefinder\ no\ pin.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }  
+.head-container{
+    height: 130px;
     width: 100%;
 }
-
-.contact{
-    font-size: 20px;
-    display: flex;
-    float: right;
-    align-items: center;
-    justify-content: center;
-    margin-top: 48.5px;
-    margin-right: 45px;
-}
-
-.about{
-    font-size: 20px;
-    display: flex;
-    float: left;
-    align-items: center;
-    justify-content: center;
-    margin-top: 48.5px;
-    margin-left: 45px;
-}
-
 .logo{
-    width: 115px;
-    height: 115px;
-    display: flex;
-    margin: auto;
+    float: left;
+    height: 160px;
+    width:160px;
 }
+
+.button-about2{
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+    width:140px;
+    height:50px;
+    border:2px solid #ffffff;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .button-about2 a{
+      top: 13.5px;
+    font-size:18px;
+    color:#ffffff;
+    text-decoration:none;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-about2{
+    width:140px;
+    height:50px;
+    border:0px solid #11661f;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+  }
+  .button-about2:hover .eff-about2{
+    border:70px solid #ffffff;
+  }
+  .button-about2:hover a{
+    color:#11661f;
+  }
+
+
+.text-box{
+    display: flex;
+    background-color: white;
+    margin-top: 140px;
+    margin-left: 100px;
+    height: 389px;
+    width:300px;
+    text-align: center;
+   
+}
+.line{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: inline-block;
+    width: 50px;
+    border-top: solid 1px green;
+    height: 1px;
+}
+.mission{
+    font-size:30px;
+    color:sandybrown;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.text{
+    text-align: left;
+    font-size: 15px;
+    color:grey;
+    position: absolute;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 60px;
+    width: 200px;
+
+}
+
+
+
+
+
+
+
+
+

@@ -10,21 +10,96 @@
 body{
     margin:0px;
 }
+
+
+.button-about{
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+    width:140px;
+    height:50px;
+    border:2px solid #ffffff77;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .button-about a{
+    top: 13.5px;
+    text-align: center;
+    margin: auto;
+    font-size:16px;
+    color:#ffffff;
+    text-decoration:none;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-about{
+    width:140px;
+    height:50px;
+    border:0px solid #ffffff77;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+  }
+  .button-about:hover .eff-about{
+    border:70px solid #11661f77;
+  }
+  .button-about:hover a{
+    color:#fff;
+  }
+  
+.button-gallery{
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+    width:140px;
+    height:50px;
+    border:2px solid #ffffff77;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .button-gallery a{
+      top: 13.5px;
+    font-size:16px;
+    color:#ffffff;
+    text-decoration:none;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-gallery{
+    width:140px;
+    height:50px;
+    border:0px solid #11661f77;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+  }
+  .button-gallery:hover .eff-gallery{
+    border:70px solid #11661f77;
+  }
+  .button-gallery:hover a{
+    color:#fff;
+  }
+  
+
+
+
  img{
     width: 150px;
     height: 150px;
     display: flex;
     align-content: flex-start;
 } 
-.topnav a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px;
-    margin-top: 10px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+
 
   .container-top {
       display: flex;
@@ -69,10 +144,108 @@ body{
 .bottom-background{
     background-image: url(../images/grassphonebackground.jpg);
     margin:0px;
-    height: 100vh;
+    height: 1100px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.button-about2{
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+    width:140px;
+    height:50px;
+    border:2px solid #ffffff;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .button-about2 a{
+      top: 13.5px;
+    font-size:18px;
+    color:#ffffff;
+    text-decoration:none;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-about2{
+    width:140px;
+    height:50px;
+    border:0px solid #11661f;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+  }
+  .button-about2:hover .eff-about2{
+    border:70px solid #ffffff;
+  }
+  .button-about2:hover a{
+    color:#11661f;
+  }
+  
+.button-gallery2{
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+    width:140px;
+    height:50px;
+    border:2px solid #ffffff;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .button-gallery2 a{
+      top: 13.5px;
+    font-size:18px;
+    color:#ffffff;
+    text-decoration:none;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-gallery2{
+    width:140px;
+    height:50px;
+    border:0px solid #11661f;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+    box-sizing:border-box;
+  }
+  .button-gallery2:hover .eff-gallery2{
+    border:70px solid #ffffff;
+  }
+  .button-gallery2:hover a{
+    color:#11661f;
+  }
+  
+
+.second-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    margin: auto;
+}
+.instructions{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 2px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin: auto;
 }
 .backbox{
     display: flex;
@@ -82,27 +255,16 @@ body{
     border-style: solid;
     border-color: black;
     background: rgba(128, 128, 128, 0.397);
-    margin-top: 180px; 
+    margin-top: 120px; 
     align-self:center;
     }
     .logo{
+        color:white;
         width: 150px;
         height: 150px;
         display: flex;
         align-content: flex-start;
     }
-    .second-nav a {
-        float: right;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 20px;
-        margin-top: 10px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-
-
-
     .container {
         display: flex;
         width: 100%;
@@ -124,8 +286,8 @@ body{
       }
       
       .overlay1{
-        margin-top:43px;
-        margin-left:20px;
+        margin-top:47px;
+        margin-left:23px;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -140,8 +302,8 @@ body{
     
        
       .overlay2{
-        margin-top:43px;
-        margin-left:479px;
+        margin-top:47px;
+        margin-left:490px;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -155,8 +317,8 @@ body{
       }
      
       .overlay3{
-        margin-top:43px;
-        margin-left:938px;
+        margin-top:47px;
+        margin-left:957px;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -171,8 +333,8 @@ body{
      
       .overlay4{
         position: absolute;
-        margin-top:367px;
-        margin-left:20px;
+        margin-top:371px;
+        margin-left:23px;
         top: 0;
         bottom: 0;
         left: 0;
@@ -185,8 +347,8 @@ body{
       }
      
       .overlay5{
-        margin-top:367px;
-        margin-left:479px;
+        margin-top:371px;
+        margin-left:490px;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -200,8 +362,8 @@ body{
       }
      
       .overlay6{
-        margin-top:367px;
-        margin-left:938px;
+        margin-top:371px;
+        margin-left:957px;
         position: absolute;
         top: 0;
         bottom: 0;
