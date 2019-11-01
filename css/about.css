@@ -30,11 +30,11 @@ html body{
     overflow:hidden;
   }
   .button-about2 a{
-      top: 13.5px;
-    font-size:18px;
+      top: 10px;
+    font-size:24px;
     color:#ffffff;
     text-decoration:none;
-    transition:all .5s ease;
+    transition:all 2s ease;
     z-index:2;
     position:relative;
   }
@@ -95,10 +95,21 @@ html body{
 }
 
 
+@media(max-width: 420px){
+
+
+.text-box {
+    display: flex;
+    background-color: white;
+    margin-top: 140px;
+    margin-left: 10px;
+    height: 389px;
+    width: 300px;
+    text-align: center;
+}
 
 
 
 
 
-
-
+}

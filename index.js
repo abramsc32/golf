@@ -2,18 +2,14 @@
 document.addEventListener('click', function (e) {
   if (e.target.tagName !== 'A') return;
 
-  if ((e.target.href && e.target.href.indexOf('#') != -1) && ((e.target.pathname == location.pathname) || ('/' + e.target.pathname == location.pathname)) && (e.target.search == location.search)) {
+  if ((e.target.href && e.target.href.indexOf('#') != -1) && ((e.target.pathname == location.pathname) || 
+  ('/' + e.target.pathname == location.pathname)) && (e.target.search == location.search)) {
 
 
     scrollAnchors(e, e.target);
 
   }
-
-
-
 });
-
-
 function scrollAnchors(e, respond = null) {
 
   function distanceToTop(el) {
@@ -44,7 +40,7 @@ function scrollAnchors(e, respond = null) {
 
       clearInterval(checkIfDone);
     }
-  }, 1000);
+  }, 7000);
 }
 
 

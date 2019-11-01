@@ -27,10 +27,10 @@ body{
     overflow:hidden;
   }
   .button-about a{
-    top: 13.5px;
+    top: 10px;
     text-align: center;
     margin: auto;
-    font-size:16px;
+    font-size:24px;
     color:#ffffff;
     text-decoration:none;
     transition:all .5s ease;
@@ -45,7 +45,9 @@ body{
     transition:all .5s ease;
     z-index:1;
     box-sizing:border-box;
+    margin-bottom:5px;
   }
+  
   .button-about:hover .eff-about{
     border:70px solid #11661f77;
   }
@@ -126,8 +128,8 @@ body{
     overflow:hidden;
   }
   .button-about2 a{
-      top: 13.5px;
-    font-size:18px;
+      top: 10px;
+    font-size:24px;
     color:#ffffff;
     text-decoration:none;
     transition:all .5s ease;
@@ -385,11 +387,44 @@ h2{
         background-repeat: no-repeat;
     }
 
+    .container-top {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 75px;
+    }
+    .review-title {
+        font-size: 70px;
+        color: white;
+    }
+    .discover {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 55px;
+        margin-bottom: 50px;
+        font-size: 21px;
+        color: white;
+    }
 
-
-
-
-
+    .scroll {
+        display: flex;
+        box-sizing: border-box;
+        padding-top: 100px;
+        width: 275px;
+        height: 75px;
+        padding: 21.2px;
+        border: 5px solid white;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        margin-top: 40px;
+        background-color: rgba(27, 65, 32, 0.212);
+        font-size: 22px;
+        color: #f2f2f2;
+        text-decoration: none;
+    }
 
 
 
@@ -427,33 +462,132 @@ h2{
         background-repeat: no-repeat;
     }
 
-.second-title{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 30px;
-    width: 100%;
-    color: white;
-    font-size: 43.5px;
-    margin: auto;
-}
-.instructions{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 2px;
-    width: 100%;
-    color: white;
-    font-size: 15px;
-    margin: auto;
-}
-
+    .border-title {
+        border: 5px solid white;
+        width: 375px;
+        margin-left: 17px;
+        height: 60px;
+        margin-top: 50px;
+        background-color: rgba(27, 65, 32, 0.534);
+    }
+    .second-title {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 30px;
+        width: 100%;
+        color: white;
+        font-size: 30.5px;
+        margin: auto;
+    }
+    .instructions {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height: 2px;
+        width: 100%;
+        color: white;
+        font-size: 15px;
+        margin: auto;
+    }
 
 .image {
     border: solid 2px black;
     border-radius: 3px;
-    width: 420px;
-    height: 310px;
+    width: 300px;
+    height: 220px;
     margin: 10px;
   } 
+
+  .overlay1{
+    margin-top:72px;
+    margin-left:11.9px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+
+   
+  .overlay2{
+    margin-top:72px;
+    margin-left:477px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay3{
+    margin-top:72px;
+    margin-left:942px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay4{
+    position: absolute;
+    margin-top:406px;
+    margin-left:11.9px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay5{
+    /* margin-top:406px;
+    margin-left:477px; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+ 
+  .overlay6{
+    /* margin-top:406px;
+    margin-left:942px; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: 220px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(115, 153, 165);
+  }
+
 }
