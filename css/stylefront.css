@@ -1,3 +1,4 @@
+
 .top-image {
     margin:0px;
     height: 100vh;
@@ -96,6 +97,7 @@ body{
     background-color: rgba(27, 65, 32, 0.212);
     font-size: 22px;
     color: #f2f2f2;
+    text-decoration: none;
 }
 
 /* Second half of page begins from this point on */
@@ -103,7 +105,7 @@ body{
 .bottom-background{
     background-image: url(../images/grassphonebackground.jpg);
     margin:0px;
-    height: 1100px;
+    height: 1080px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -148,16 +150,26 @@ body{
     color:#11661f;
   }
   
+.topnav{
+    height:140px;
+}
+.border-title{
+    border: 5px solid white;
+    width: 650px;
+    margin-left: 391px;
+    height: 85px;
+    background-color: rgba(27, 65, 32, 0.534);
 
+}
 .second-title{
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 30px;
     width: 100%;
     color: white;
     font-size: 50px;
     margin: auto;
+    text-shadow: -1px 1px 0px -1px solid black;
 }
 .instructions{
     display: flex;
@@ -166,18 +178,17 @@ body{
     height: 2px;
     width: 100%;
     color: white;
-    font-size: 20px;
+    font-size: 18.5px;
     margin: auto;
 }
 .backbox{
     display: flex;
     height:100vh;
-    width: 100%;
     border-radius: 25px;
     border-style: solid;
     border-color: black;
     background: rgba(128, 128, 128, 0.397);
-    margin-top: 120px; 
+    margin-top: 40px; 
     align-self:center;
     }
     .logo{
@@ -186,7 +197,8 @@ body{
         height: 150px;
         display: flex;
         align-content: flex-start;
-    }
+    } 
+    
     .container {
         display: flex;
         width: 100%;
@@ -202,21 +214,21 @@ body{
       .image {
         border: solid 2px black;
         border-radius: 3px;
-        width: 420px;
-        height: 300px;
+        width: 440px;
+        height: 310px;
         margin: 10px;
       }
       
       .overlay1{
-        margin-top:47px;
-        margin-left:23px;
+        margin-top:72px;
+        margin-left:11.9px;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 420px;
-        height: 300px;
+        width: 440px;
+        height: 310px;
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(115, 153, 165);
@@ -224,30 +236,30 @@ body{
     
        
       .overlay2{
-        margin-top:47px;
-        margin-left:490px;
+        margin-top:72px;
+        margin-left:477px;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 420px;
-        height: 300px;
+        width: 440px;
+        height: 310px;
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(115, 153, 165);
       }
      
       .overlay3{
-        margin-top:47px;
-        margin-left:957px;
+        margin-top:72px;
+        margin-left:942px;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 420px;
-        height: 300px;
+        width: 440px;
+        height: 310px;
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(115, 153, 165);
@@ -255,44 +267,44 @@ body{
      
       .overlay4{
         position: absolute;
-        margin-top:371px;
-        margin-left:23px;
+        margin-top:406px;
+        margin-left:11.9px;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 420px;
-        height: 300px;
+        width: 440px;
+        height: 310px;
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(115, 153, 165);
       }
      
       .overlay5{
-        margin-top:371px;
-        margin-left:490px;
+        margin-top:406px;
+        margin-left:477px;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 420px;
-        height: 300px;
+        width: 440px;
+        height: 310px;
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(115, 153, 165);
       }
      
       .overlay6{
-        margin-top:371px;
-        margin-left:957px;
+        margin-top:406px;
+        margin-left:942px;
         position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
-        width: 420px;
-        height: 300px;
+        width: 440px;
+        height: 310px;
         opacity: 0;
         transition: .5s ease;
         background-color: rgb(115, 153, 165);
@@ -330,15 +342,31 @@ body{
     
       .text {
         color: white;
-        font-size: 20px;
+        font-size: 25px;
         position: absolute;
-        top: 50%;
+        top: 30%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
       }
+.description{
+    width: 80%;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    top:45%;
+    left: 9%;
+}
+
+
+
+
+h2{
+    margin:1px;
+}
 
 
 
@@ -347,39 +375,85 @@ body{
 
 
 
-
-
-
-
-
-/* 
 @media(max-width: 420px){
-    body {
-        background: url(../Project1/images/phonegolfbackground.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+      .top-image {
+        margin:0px;
+        height: 100vh;
+        width: 100%;
+        background-image: url(../images/phonegolfbackground.jpg);
         background-size: cover;
-        height: 100%;
-        overflow: hidden;
-    }
-    
-    img{
-        width: 60px;
-        height: 60px;
-        display: flex;
-        align-content: flex-start;
-    }
-    .discover{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        font-size: 18px;
-        color:white;
-    }
-    .review-title{
-        font-size: 50px;
-        color: white;
+        background-repeat: no-repeat;
     }
 
-      }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.backbox{
+    display: flex;
+    height:auto;
+    width: auto;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    background: rgba(128, 128, 128, 0.397);
+    margin-top: 50px; 
+    align-self:center;
+    }
+
+ 
+
+    .bottom-background{
+        background-image: url(../images/grassphonebackground.jpg);
+        margin:0px;
+        height: 100vh;
+        width: 420px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.second-title{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-size: 43.5px;
+    margin: auto;
+}
+.instructions{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 2px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    margin: auto;
+}
+
+
+.image {
+    border: solid 2px black;
+    border-radius: 3px;
+    width: 420px;
+    height: 310px;
+    margin: 10px;
+  } 
+}
