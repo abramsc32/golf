@@ -9,7 +9,10 @@
 #### Header displays icon in top left that on click will bring you back up to the top half 
 #### Header also has the same animated button that will direct you to the mission statement
 #### In the body there is a title and decription of the content that follows
-#### the content that is displayed is the top six images with overlays that show what is in the picture. Each overlay has minor opacity so u can see through slightly to see image
+#### The content that is displayed is the top six images with overlays that show what is in the picture. Each overlay has minor opacity so u can see through slightly to see image
+
+![](../golf/aboutimages/coursegiphy.gif)
+<img src="../golf/aboutimages/coursegiphy.gif">
 
 ### About Us 
 #### Header displays icon in top left that on click will bring you back up to the top half 
