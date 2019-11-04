@@ -456,7 +456,7 @@ h2{
     .bottom-background{
         background-image: url(../images/grassphonebackground.jpg);
         margin:0px;
-        height: 100vh;
+        height: 1800px;
         width: 420px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -500,8 +500,8 @@ h2{
   } 
 
   .overlay1{
-    margin-top:72px;
-    margin-left:11.9px;
+    margin-top: 12px;
+    margin-left: 38px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -516,8 +516,8 @@ h2{
 
    
   .overlay2{
-    margin-top:72px;
-    margin-left:477px;
+    margin-top:256px;
+    margin-left: 38px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -531,8 +531,8 @@ h2{
   }
  
   .overlay3{
-    margin-top:72px;
-    margin-left:942px;
+    margin-top:500px;
+    margin-left: 38px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -547,8 +547,8 @@ h2{
  
   .overlay4{
     position: absolute;
-    margin-top:406px;
-    margin-left:11.9px;
+    margin-top:744px;
+    margin-left: 38px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -561,8 +561,8 @@ h2{
   }
  
   .overlay5{
-    /* margin-top:406px;
-    margin-left:477px; */
+    margin-top:988px;
+    margin-left: 38px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -576,8 +576,8 @@ h2{
   }
  
   .overlay6{
-    /* margin-top:406px;
-    margin-left:942px; */
+    margin-top:1232px;
+    margin-left: 38px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -590,4 +590,24 @@ h2{
     background-color: rgb(115, 153, 165);
   }
 
+  .description{
+    width: 80%;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    top:28%;
+    left: 9%;
+}
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 }
